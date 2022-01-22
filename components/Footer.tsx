@@ -30,6 +30,14 @@ const Footer = () => {
                         </p>
                         <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
                             <a
+                                href="mailto:gernot.ohner@gmail.com"
+                                className={"transition-colors hover:text-yellow-500"}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Email
+                            </a>
+                            <a
                                 href="https://www.linkedin.com/in/gernot-ohner/"
                                 className={"transition-colors hover:text-yellow-500"}
                                 target="_blank"

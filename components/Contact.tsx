@@ -53,7 +53,7 @@ const About = () => {
                 </div>
             </div>
 
-            <Links resume={true}/>
+            <ContactLinks />
 
             <Footer />
         </div>

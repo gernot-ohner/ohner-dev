@@ -1,16 +1,17 @@
 import Container from '../components/container'
-import MoreStories from '../components/more-stories'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import Post from '../types/post'
+import Project from '../types/project'
 import Navigation from '../components/Navigation'
+import React from 'react'
+import ProjectList from '../components/ProjectList'
 
 type Props = {
-  projectPosts: Post[]
+  projects: Project[]
 }
 
-const Projects = ({ projectPosts }: Props) => {
+const Projects = ({ projects }: Props) => {
   return (
     <>
       <Layout>
@@ -19,7 +20,7 @@ const Projects = ({ projectPosts }: Props) => {
         </Head>
         <Container>
           <Navigation />
-          <MoreStories title="Projects" posts={projectPosts} />
+          <ProjectList title="Projects" projects={projects} />
         </Container>
       </Layout>
     </>
@@ -29,17 +30,16 @@ const Projects = ({ projectPosts }: Props) => {
 export default Projects
 
 export const getStaticProps = async () => {
-  const projectPosts = getAllPosts([
+  const projects = getAllPosts([
     'title',
     'date',
     'slug',
-    'author',
     'type',
     'coverImage',
     'excerpt',
   ]).filter((post) => post.type == "project")
 
   return {
-    props: { projectPosts },
+    props: { projects },
   }
 }

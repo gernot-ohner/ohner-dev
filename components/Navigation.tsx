@@ -1,6 +1,6 @@
 import Link from "next/link"
 import React from "react"
-import SmallIcon from "./SmallIcon";
+import Links from "./Links";
 
 const Navigation = () => {
     return (
@@ -17,9 +17,7 @@ const Navigation = () => {
                     </Link>
                 </div>
                 <div className="justify-items-end">
-                    <SmallIcon name="Blog" url="/blog" internal={true}/>
-                    <SmallIcon name="Projects" url="projects" internal={true}/>
-                    <SmallIcon name="Contact" url="mailto:gernot.ohner@gmail.com" internal={false}/>
+                    <Links />
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import Container from '../components/container'
 import MoreStories from '../components/more-stories'
 import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
+import Intro from '../components/Intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
@@ -35,7 +35,6 @@ export const getStaticProps = async () => {
     'title',
     'date',
     'slug',
-    'author',
     'type',
     'coverImage',
     'excerpt',
