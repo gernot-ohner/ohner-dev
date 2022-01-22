@@ -7,10 +7,10 @@ import Post from '../types/post'
 import Navigation from '../components/Navigation'
 
 type Props = {
-  allPosts: Post[]
+  projectPosts: Post[]
 }
 
-const Projects = ({ allPosts }: Props) => {
+const Projects = ({ projectPosts }: Props) => {
   return (
     <>
       <Layout>
@@ -19,7 +19,7 @@ const Projects = ({ allPosts }: Props) => {
         </Head>
         <Container>
           <Navigation />
-          <MoreStories title="Projects" posts={allPosts} />
+          <MoreStories title="Projects" posts={projectPosts} />
         </Container>
       </Layout>
     </>
@@ -29,16 +29,17 @@ const Projects = ({ allPosts }: Props) => {
 export default Projects
 
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
+  const projectPosts = getAllPosts([
     'title',
     'date',
     'slug',
     'author',
+    'type',
     'coverImage',
     'excerpt',
-  ])
+  ]).filter((post) => post.type == "project")
 
   return {
-    props: { allPosts },
+    props: { projectPosts },
   }
 }

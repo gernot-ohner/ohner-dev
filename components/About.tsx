@@ -3,6 +3,7 @@ import Image from "next/image"
 import profile from "../public/assets/profile.jpg"
 import Intro from "./intro"
 import SmallIcon from "../components/SmallIcon"
+import Footer from "./Footer"
 
 
 const About = () => {
@@ -36,7 +37,7 @@ const About = () => {
                             I sometimes write blog posts about technical topics I encounter and find interesting.
                         </p>
                         <br />
-                        <div className="flex pt-10 lg:pt-28 lg:text-center">
+                        <div className="flex pt-12 lg:text-center">
                             <SmallIcon name="Blog" url="/blog" internal={true} />
                             <SmallIcon name="Projects" url="/projects" internal={true} />
                             <SmallIcon name="Contact" url="mailto:gernot.ohner@gmail.com" />
@@ -55,6 +56,8 @@ const About = () => {
                     />
                 </div>
             </div>
+
+            <Footer />
         </div>
     )
 }

@@ -9,10 +9,10 @@ import Post from '../types/post'
 import Navigation from '../components/Navigation'
 
 type Props = {
-  allPosts: Post[]
+  blogPosts: Post[]
 }
 
-const Blog = ({ allPosts }: Props) => {
+const Blog = ({ blogPosts }: Props) => {
   return (
     <>
       <Layout>
@@ -21,7 +21,7 @@ const Blog = ({ allPosts }: Props) => {
         </Head>
         <Container>
           <Navigation/>
-          <MoreStories title="Blog" posts={allPosts} />
+          <MoreStories title="Blog" posts={blogPosts} />
         </Container>
       </Layout>
     </>
@@ -31,16 +31,17 @@ const Blog = ({ allPosts }: Props) => {
 export default Blog
 
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts([
+  const blogPosts = getAllPosts([
     'title',
     'date',
     'slug',
     'author',
+    'type',
     'coverImage',
     'excerpt',
-  ])
+  ]).filter((post) => post.type == "blog")
 
   return {
-    props: { allPosts },
+    props: { blogPosts },
   }
 }
