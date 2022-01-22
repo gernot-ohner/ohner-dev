@@ -2,7 +2,7 @@ import React from "react"
 import SmallIcon from "./SmallIcon"
 
 type Props = {
-    resume: boolean
+    resume?: boolean
 }
 
 const Links = ({ resume }: Props) => {

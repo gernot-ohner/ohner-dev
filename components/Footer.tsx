@@ -18,7 +18,7 @@ const Footer = () => {
                                 href="https://tailwindcss.com/"
                                 className="hover:text-yellow-500 transition-colors"
                             >
-                                Tailwind
+                                Tailwind CSS
                             </a>
                             &nbsp;and&nbsp;
                             <a
