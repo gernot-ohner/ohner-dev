@@ -7,7 +7,7 @@ type Props = {
 
 const Links = ({ resume }: Props) => {
     return (
-        <div className="flex pt-12 lg:text-center">
+        <div className="md:flex-row flex-col flex lg:text-center">
             <SmallIcon name="Blog" url="/blog" internal={true} />
             <SmallIcon name="Projects" url="/projects" internal={true} />
             {resume ?

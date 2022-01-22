@@ -53,7 +53,9 @@ const About = () => {
                 </div>
             </div>
 
-            <Links resume={true}/>
+            <div className="pt-12">
+                <Links resume={true} />
+            </div>
 
             <Footer />
         </div>
