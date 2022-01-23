@@ -1,6 +1,6 @@
 import Link from "next/link"
 import React from "react"
-import Links from "./Links";
+import ButtonBar from "./ButtonBar";
 
 const Navigation = () => {
     return (
@@ -17,7 +17,7 @@ const Navigation = () => {
                     </Link>
                 </div>
                 <div className="justify-items-end">
-                    <Links />
+                    <ButtonBar />
                 </div>
             </div>
         </div>

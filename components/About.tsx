@@ -3,11 +3,13 @@ import Image from "next/image"
 import profile from "../public/assets/profile.jpg"
 import Intro from "./Intro"
 import Footer from "./Footer"
-import Links from "./Links"
-import ContactLinks from "./ContactLinks"
+import { useState } from 'react'
+import ButtonBar from "./ButtonBar"
 
 
 const About = () => {
+    const [showContact, updateContactState] = useState(false)
+
     return (
         <div className="container px-4 mx-auto">
             <Intro />
@@ -52,11 +54,7 @@ const About = () => {
                     />
                 </div>
             </div>
-
-            <div className="pt-12">
-                <Links resume={true} />
-            </div>
-
+            <ButtonBar/>
             <Footer />
         </div>
     )

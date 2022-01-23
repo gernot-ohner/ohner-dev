@@ -53,7 +53,6 @@ const About = () => {
                 </div>
             </div>
 
-            <ContactLinks />
 
             <Footer />
         </div>
