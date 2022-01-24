@@ -9,7 +9,7 @@ const Navigation = () => {
                 <div className={"justify-items-start"}>
                     <Link href="/">
                         <a
-                            className={"text-3xl font-bold tracking-wider transition-colors" +
+                            className={"text-6xl lg:text-4xl font-bold tracking-wider transition-colors" +
                                 "text-gray-900 hover:text-sky-500 uppercase align-middle"}
                         >
                             <span className="block">Gernot F.</span>{' '} <span className="block">Ohner</span>
