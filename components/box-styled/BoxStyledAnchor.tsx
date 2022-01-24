@@ -12,8 +12,8 @@ const BoxStyledAnchor = ({ text, href }: Props) => {
         tracking-tighter leading-tight 
         border-4 antialiased 
         border-black p-4  
-        md:hover:rotate-6 hover:py-3 hover:my-1 
-        md:hover:py-4 md:hover:my-0 
+        lg:hover:rotate-6 hover:py-3 hover:my-1 
+        lg:hover:py-4 lg:hover:my-0 
         transition ease-in-out 
         items-center md:justify-between inline-flex mx-1 lg:mx-3"
     >

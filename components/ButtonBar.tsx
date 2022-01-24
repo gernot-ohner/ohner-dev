@@ -11,7 +11,7 @@ const ButtonBar = () => {
                     <div className="lg:flex-row flex-col flex lg:text-center" >
                         <button className="text-xl text-center lg:text-2xl lg:text-left font-bold  
                                                 tracking-tighter leading-tight border-4 border-black p-4 antialiased 
-                                                md:hover:rotate-6 hover:py-3 hover:my-1 md:hover:py-4 md:hover:my-0 
+                                                lg:hover:rotate-6 hover:py-3 hover:my-1 lg:hover:py-4 lg:hover:my-0 
                                                 transition ease-in-out items-center md:justify-between inline-flex mx-1 lg:mx-3"
                             onClick={() => setContact(!showContact)}>
                             <span className="font-bold">Menu</span>
@@ -23,7 +23,7 @@ const ButtonBar = () => {
                     <div className="lg:flex-row flex-col flex lg:text-center">
                         <button className="text-xl text-center lg:text-2xl lg:text-left font-bold  
                                                 tracking-tighter leading-tight border-4 border-black p-4 antialiased 
-                                                md:hover:rotate-6 hover:py-3 hover:my-1 md:hover:py-4 md:hover:my-0 
+                                                lg:hover:rotate-6 hover:py-3 hover:my-1 lg:hover:py-4 lg:hover:my-0 
                                                 transition ease-in-out items-center md:justify-between inline-flex mx-1 lg:mx-3"
                             onClick={() => setContact(!showContact)}>
                             <span className="font-bold">Contact</span>
