@@ -8,10 +8,6 @@ ogImage:
   url: '/assets/blog/visitor-pattern/cover.jpg'
 ---
 
-
-
-# The Visitor Pattern
-
 Wikipedia describes the [Visitor Pattern](https://en.wikipedia.org/wiki/Visitor_pattern) as follows: 
 > The visitor design pattern is a way of separating an algorithm from an object structure on which it operates.
 > A practical result of this separation is the ability to add new operations to existing object structures without modifying the structures.

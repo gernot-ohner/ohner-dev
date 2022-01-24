@@ -8,7 +8,6 @@ ogImage:
   url: '/assets/blog/this-website/cover.jpg'
 ---
 
-# Using Next.js and Vercel to build this website
 Yes, this very website.
 As it says in the footer, I built it using Next.js and Tailwind CSS and hosted it on Vercel.
 

@@ -8,8 +8,6 @@ ogImage:
   url: '/assets/blog/cpplox/cover.jpg'
 ---
 
-# Why I switched from C++ to Java when implementing Lox
-
 Early in my time at the [Recurse Center](https://recurse.com) I (re-)familiarized myself with C++ by reading 
 [*A Tour of C++*](https://www.stroustrup.com/tour2.html) by Bjarne Stroustrup.
 Since I am someone who thought that *The Crying of Lot 49* was a lot of fun and is *const*antly looking for new things to learn, 

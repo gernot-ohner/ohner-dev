@@ -8,7 +8,6 @@ ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---
 
-
 So imagine you have a programming language.
 You specify its grammar in [Backus-Naur form](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form), like this example,
 taken from Crafting Interpreters, [Chapter 6](https://craftinginterpreters.com/parsing-expressions.html):
