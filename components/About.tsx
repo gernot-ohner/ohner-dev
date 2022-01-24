@@ -13,7 +13,7 @@ const About = () => {
             <div
                 className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-left">
                 <div className="lg:px-4 lg:mt-12 ">
-                    <div className="mt-6 text-gray-800">
+                    <div className="font-mono mt-6 text-gray-800">
                         <p className="mt-6 mb-4">
                             I'm a software developer currently living in Boston, MA.
                         </p>
