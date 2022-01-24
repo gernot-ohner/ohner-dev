@@ -3,7 +3,7 @@ title: 'Abstract Syntax Trees'
 excerpt: 'This website is built using Next.js, a framework on top of react.js, styled with Tailwind CSS and hosted on Vercel. In this post I explain how '
 coverImage: '/assets/blog/dynamic-routing/cover.jpg'
 date: '2022-01-20T05:35:07.322Z'
-type: 'blog'
+type: 'draft'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---

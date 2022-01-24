@@ -1,11 +1,11 @@
 ---
 title: 'Visitor Pattern'
-excerpt: 'This website is built using Next.js, a framework on top of react.js, styled with Tailwind CSS and hosted on Vercel. In this post I explain how '
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2022-01-20T05:35:07.322Z'
+excerpt: "In which I describe the visitor pattern, why it's useful and how to implement it in Java"
+coverImage: '/assets/blog/visitor-pattern/cover.jpg'
+date: '2022-01-23T19:35:07.322Z'
 type: 'blog'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/visitor-pattern/cover.jpg'
 ---
 
 

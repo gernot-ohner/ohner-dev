@@ -1,11 +1,11 @@
 ---
-title: 'Using Next.js and Vercel to build this website'
-excerpt: 'This website is built using Next.js, a framework on top of react.js, styled with Tailwind CSS and hosted on Vercel. In this post I explain how '
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+title: 'Next.js, Tailwind CSS and Vercel'
+excerpt: 'In which I describe how I built this website using Next.js, a framework on top of react.js, styled it with Tailwind CSS and hosted it on Vercel'
+coverImage: '/assets/blog/this-website/cover.jpg'
 date: '2022-01-20T05:35:07.322Z'
 type: 'blog'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/this-website/cover.jpg'
 ---
 
 # Using Next.js and Vercel to build this website

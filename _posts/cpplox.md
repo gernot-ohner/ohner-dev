@@ -1,11 +1,11 @@
 ---
-title:  "Why I switched from C++ to Java when implementing Lox"
-excerpt: 'This website is built using Next.js, a framework on top of react.js, styled with Tailwind CSS and hosted on Vercel. In this post I explain how '
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
-date: '2022-01-20T05:35:07.322Z'
+title:  "cpplox"
+excerpt: "In which I describe why I didn't use C++ to implement the Lox programing language"
+coverImage: '/assets/blog/cpplox/cover.jpg'
+date: '2021-12-15T12:43:24.000Z'
 type: 'blog'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/cpplox/cover.jpg'
 ---
 
 # Why I switched from C++ to Java when implementing Lox
