@@ -1,0 +1,13 @@
+2022.01.24 11:48:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/go/dev/website/ohner-dev/.metals/lsp.trace.json or /home/go/.cache/metals/lsp.trace.json
+2022.01.24 11:48:50 INFO  logging to file /home/go/dev/website/ohner-dev/.metals/metals.log
+2022.01.24 11:48:50 INFO  Started: Metals version 0.11.1 in workspace '/home/go/dev/website/ohner-dev' for client Visual Studio Code 1.63.2.
+2022.01.24 11:48:50 INFO  Parse release: 11.0.13
+2022.01.24 11:48:50 WARN  Can't instantiate JavaInteractiveSemanticdb (version: Some(JdkVersion(11,0)), jdkHome: /usr/lib/jvm/java-1.11.0-openjdk-amd64, javac exists: false)
+2022.01.24 11:48:52 INFO  time: initialize in 2.14s
+2022.01.24 11:48:52 WARN  Build server is not auto-connectable.
+2022.01.24 11:48:52 WARN  no build tool detected in workspace '/home/go/dev/website/ohner-dev'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.01.24 11:49:49 INFO  
+2022.01.24 11:49:49 INFO  Template applied in /home/go/dev/scala/./zio-project-seed
+2022.01.24 11:49:49 INFO  
+2022.01.24 11:49:49 INFO  time: ran 'giter8.Giter8' in 6.14s
+2022.01.24 11:49:58 INFO  shutting down Metals
